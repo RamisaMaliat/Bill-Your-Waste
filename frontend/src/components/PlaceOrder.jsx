@@ -72,7 +72,7 @@ class PlaceOrder extends Component {
             <label style={{ "fontSize": "18px" }}>
               &nbsp; {post.CategoryName}
             </label>
-            <p style={{ "fontSize": "15px" }}>&nbsp;&nbsp; {"(You will receive "}<random style={{ "color": "green" }}><u>{post.SellPrice}{" taka / per gram "}</u></random>{"waste)"}</p>
+            <p style={{ "fontSize": "15px" }}>&nbsp;&nbsp; {"(You have to pay "}<random style={{ "color": "green" }}><u>{post.SellPrice}{" taka for per gram "}</u></random>{"waste)"}</p>
             <p>{post.description}</p>
           </Col>
           <Col><img src={post.CategoryName+".png"} height="300px" width="300px" style={{"marginLeft":"100px"}}/></Col>
